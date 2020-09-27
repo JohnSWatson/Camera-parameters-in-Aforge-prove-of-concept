@@ -12,11 +12,17 @@ namespace Camera_parameters_in_Aforge__prove_of_concept
 {
     public partial class Form1 : Form
     {
+        Cameras cameras = new Cameras();
+
         public Form1()
         {
             InitializeComponent();
-            Cameras.Enumeratevideodevices(comboBoxCameras);
+            cameras.loadCameraNames(comboBoxCameras);
         }
 
+        private void comboBoxCameras_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            labelMoniker.Text = cameras.moniker(comboBoxCameras.SelectedIndex);
+        }
     }
 }

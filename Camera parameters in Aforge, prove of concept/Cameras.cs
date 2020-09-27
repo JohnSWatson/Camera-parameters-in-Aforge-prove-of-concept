@@ -7,22 +7,31 @@ using AForge.Video.DirectShow;
 
 namespace Camera_parameters_in_Aforge__prove_of_concept
 {
-    public static class Cameras
+    public class Cameras
     {
         static FilterInfoCollection videoDevices;
 
-        public static void Enumeratevideodevices(ComboBox cameraList)
+        public Cameras() 
             {
-            // enumerate video devices
-            videoDevices = new FilterInfoCollection(FilterCategory.VideoInputDevice);
+            // Enumerate video devices
+                videoDevices = new FilterInfoCollection(FilterCategory.VideoInputDevice);
+            }
+
+
+
+                public void loadCameraNames(ComboBox nameList)
+            {
 
             foreach (FilterInfo fi in videoDevices)
             {
-                cameraList.Items.Add(fi.Name);
+                nameList.Items.Add(fi.Name);
             }
 
-            
         }
 
+        public string moniker(int cameraIndex)
+        {
+            return videoDevices[cameraIndex].MonikerString;
+        }
     }
 }

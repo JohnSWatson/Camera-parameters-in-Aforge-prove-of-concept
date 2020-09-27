@@ -32,6 +32,7 @@
             this.comboBoxCameras = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBoxCapturedImage = new System.Windows.Forms.PictureBox();
+            this.labelMoniker = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCapturedImage)).BeginInit();
             this.SuspendLayout();
             // 
@@ -43,6 +44,7 @@
             this.comboBoxCameras.Size = new System.Drawing.Size(408, 28);
             this.comboBoxCameras.TabIndex = 0;
             this.comboBoxCameras.Text = "No camera selected";
+            this.comboBoxCameras.SelectedIndexChanged += new System.EventHandler(this.comboBoxCameras_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -65,11 +67,21 @@
             this.pictureBoxCapturedImage.TabIndex = 2;
             this.pictureBoxCapturedImage.TabStop = false;
             // 
+            // labelMoniker
+            // 
+            this.labelMoniker.AutoSize = true;
+            this.labelMoniker.Location = new System.Drawing.Point(488, 100);
+            this.labelMoniker.Name = "labelMoniker";
+            this.labelMoniker.Size = new System.Drawing.Size(50, 20);
+            this.labelMoniker.TabIndex = 3;
+            this.labelMoniker.Text = "label2";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(898, 561);
+            this.Controls.Add(this.labelMoniker);
             this.Controls.Add(this.pictureBoxCapturedImage);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBoxCameras);
@@ -86,6 +98,7 @@
         private System.Windows.Forms.ComboBox comboBoxCameras;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBoxCapturedImage;
+        private System.Windows.Forms.Label labelMoniker;
     }
 }
 
