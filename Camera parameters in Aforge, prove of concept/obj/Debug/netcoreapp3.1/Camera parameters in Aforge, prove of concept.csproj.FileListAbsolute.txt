@@ -9,7 +9,12 @@ D:\Repos\Camera-parameters-in-Aforge-prove-of-concept\Camera parameters in Aforg
 D:\Repos\Camera-parameters-in-Aforge-prove-of-concept\Camera parameters in Aforge, prove of concept\obj\Debug\netcoreapp3.1\Camera parameters in Aforge, prove of concept.csproj.GenerateResource.cache
 D:\Repos\Camera-parameters-in-Aforge-prove-of-concept\Camera parameters in Aforge, prove of concept\obj\Debug\netcoreapp3.1\Camera parameters in Aforge, prove of concept.AssemblyInfoInputs.cache
 D:\Repos\Camera-parameters-in-Aforge-prove-of-concept\Camera parameters in Aforge, prove of concept\obj\Debug\netcoreapp3.1\Camera parameters in Aforge, prove of concept.AssemblyInfo.cs
-D:\Repos\Camera-parameters-in-Aforge-prove-of-concept\Camera parameters in Aforge, prove of concept\obj\Debug\netcoreapp3.1\Camera parameters in Aforge, prove of concept.csproj.CoreCompileInputs.cache
 D:\Repos\Camera-parameters-in-Aforge-prove-of-concept\Camera parameters in Aforge, prove of concept\obj\Debug\netcoreapp3.1\Camera parameters in Aforge, prove of concept.dll
 D:\Repos\Camera-parameters-in-Aforge-prove-of-concept\Camera parameters in Aforge, prove of concept\obj\Debug\netcoreapp3.1\Camera parameters in Aforge, prove of concept.pdb
 D:\Repos\Camera-parameters-in-Aforge-prove-of-concept\Camera parameters in Aforge, prove of concept\obj\Debug\netcoreapp3.1\Camera parameters in Aforge, prove of concept.genruntimeconfig.cache
+D:\Repos\Camera-parameters-in-Aforge-prove-of-concept\Camera parameters in Aforge, prove of concept\obj\Debug\netcoreapp3.1\Camera_parameters_in_Aforge__prove_of_concept.Properties.Resources.resources
+D:\Repos\Camera-parameters-in-Aforge-prove-of-concept\Camera parameters in Aforge, prove of concept\bin\Debug\netcoreapp3.1\AForge.dll
+D:\Repos\Camera-parameters-in-Aforge-prove-of-concept\Camera parameters in Aforge, prove of concept\bin\Debug\netcoreapp3.1\AForge.Video.dll
+D:\Repos\Camera-parameters-in-Aforge-prove-of-concept\Camera parameters in Aforge, prove of concept\bin\Debug\netcoreapp3.1\AForge.Video.DirectShow.dll
+D:\Repos\Camera-parameters-in-Aforge-prove-of-concept\Camera parameters in Aforge, prove of concept\obj\Debug\netcoreapp3.1\Camera parameters in Aforge, prove of concept.csproj.CoreCompileInputs.cache
+D:\Repos\Camera-parameters-in-Aforge-prove-of-concept\Camera parameters in Aforge, prove of concept\obj\Debug\netcoreapp3.1\Camera parameters in Aforge, prove of concept.csproj.CopyComplete

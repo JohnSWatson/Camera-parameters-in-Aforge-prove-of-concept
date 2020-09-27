@@ -15,6 +15,7 @@ namespace Camera_parameters_in_Aforge__prove_of_concept
         public Form1()
         {
             InitializeComponent();
+            Cameras.Enumeratevideodevices(comboBoxCameras);
         }
 
     }
